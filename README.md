@@ -1,19 +1,13 @@
-This project was created with node.
+## Introduction
+This project is based on monkins1010 https://github.com/monkins1010/verusid-login-template created with nodejs.
+It provides a template for a backend server to allow users to login to websites using VerusID login.
 
-It provides a template for a backend server to allow users to login to websites using VerusID loging.  Using the Mobile app
+## Important notes: 
+1. Change the name of the .env.example file to .env and update the values to your Login servers Identity and PrivateKey.
+2. Make sure you do not upload your Private key to Github.
+3. This project uses https://github.com/VerusCoin/BitGoJS, which is not the same as https://github.com/BitGo/BitGoJS.
+4. You need to use YARN since NPM install will give a denpendency 404 error using https://github.com/VerusCoin/BitGoJS.
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `node src/index.js`
-
-## .env file 
-
-please change the name of the .env.example file to .env
-
-and update the values to your Login servers Identity and PrivateKey.
-
-❗❗Make sure you do not upload your Private key to Github.
-
-the `.gitignore` file has the .env file in, but the example one does not.
+## How to run
+node src/index.js
