@@ -1,6 +1,6 @@
 ## Introduction
 A nodejs express login server for Verus which allow users to login to websites using VerusID login. 
-Will soon support Redis and how to keep users logged in - using loadbalancer with multiple server setup.
+Will soon support Redis and how to keep users logged in using loadbalancer with multiple server setup.
 
 This project is based on monkins1010 https://github.com/monkins1010/verusid-login-template created with nodejs.
 
