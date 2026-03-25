@@ -10,4 +10,4 @@ It provides a template for a backend server to allow users to login to websites 
 
 
 ## How to run
-node src/index.js
+node index.js
