@@ -18,9 +18,9 @@ This project is based on monkins1010 https://github.com/monkins1010/verusid-logi
 
 1. Change the name of the .env.example file to .env and update the values to your
    - Login servers Identity,
-   - PrivateKey,
-   - change JWT secret (Use at least 32 random characters)
-   - and changes your servers endpoint.
+   - Private Key,
+   - Change JWT secret (Use at least 32 random characters)
+   - Changes your servers endpoint.
 
 2. Make sure you do not upload your Private key to Github.
 
