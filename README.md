@@ -10,7 +10,7 @@ This project is based on monkins1010 https://github.com/monkins1010/verusid-logi
 
 2. A VerusId for signing - can be created in Verus Desktop App or Verus CLI - find more information here: https://verus.io/wallet.
 
-3. The private key (WIF) of the R address that holds above VerusId
+3. The private key (WIF) of the R address that holds the above VerusId.
 
 4. To make a valid login with mobile phone the Verus Login Server needs to be deployed on a public server or tunneled locally with port forward (visual code) or use grok for complete access. Localhost will not work.
 
@@ -20,7 +20,7 @@ This project is based on monkins1010 https://github.com/monkins1010/verusid-logi
    - Login servers Identity,
    - Private Key,
    - Change JWT secret (Use at least 32 random characters)
-   - Changes your servers endpoint.
+   - Change your servers endpoint.
 
 2. Make sure you do not upload your Private key to Github.
 
